@@ -1,0 +1,7 @@
+a_tok = ''
+a_secret = ''
+con_key = ''
+con_secret = ''
+email_account = ''
+email_pw = ''
+email_to = ''
