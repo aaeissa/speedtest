@@ -8,7 +8,6 @@ import settings
 import tweepy
 
 def speed_test():
-
     ts = time.time()
 
     # use HTTPS to communicate with speedtest servers
@@ -60,8 +59,7 @@ def speed_test():
            api.update_status(tweet)
 
        except Exception as e:
-           # print(str(e))
-           pass      
+           print(str(e))
 
 if __name__ == '__main__':
     speed_test()

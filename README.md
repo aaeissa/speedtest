@@ -5,9 +5,19 @@ This program runs speedtest-cli every minute from a Raspberry Pi cronjob, and:
 * Tweets Comcast/your ISP when your speeds are less than satisfactory
 * Emails you a daily average of download, upload, and ping speeds
 
-# Speedtest-cli Installation:
+## Requirements
 
-https://github.com/sivel/speedtest-cli
+### Speedtest-cli  
+
+```
+pip install speedtest-cli
+```
+
+### Tweepy  
+
+```
+pip install tweepy
+```  
 
 ## Cron Instructions
 
