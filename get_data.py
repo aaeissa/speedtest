@@ -36,7 +36,6 @@ def csv_data():
 
 	return [date, down_avg, up_avg, ping_avg]
 
-
 def contact(results):
 	gmail_smtp = 'smtp.gmail.com'
 	port = 587

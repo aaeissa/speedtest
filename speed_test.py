@@ -1,9 +1,3 @@
-# Original Reddit post:
-# https://www.reddit.com/r/technology/comments/43fi39/i_set_up_my_raspberry_pi_to_automatically_tweet/
-
-# Installation:
-# install speedtest-cli from https://github.com/sivel/speedtest-cli
-
 import os
 import sys
 import csv
