@@ -59,7 +59,7 @@ def speed_test():
            api.update_status(tweet)
 
        except Exception as e:
-           print(str(e))
+           print('Error: {}'.format(e))
 
 if __name__ == '__main__':
     speed_test()
